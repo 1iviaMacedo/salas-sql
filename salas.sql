@@ -1,15 +1,15 @@
-CREATE TABLE ENTRETERIMENTO (SALA VARCHAR(100), AR COND. VARCHAR(100), QUANTIDADE VARCHAR(100) );
+CREATE TABLE ENTRETERIMENTO (SALA VARCHAR(100), AR_COND VARCHAR(100), QUANTIDADE INT );
    
     -- Script para inserir dados na tabela SALAS
    
-    INSERT INTO ENTRETERIMENTO (SALA, AR COND., QUANTIDADE) VALUES
+    INSERT INTO ENTRETERIMENTO (SALA, AR_COND, QUANTIDADE) VALUES
     ('Automação 4.0', 'tem', '2' ),
     ('Analista de Qualidade de Vida', 'tem', '1' ),
     ('Cantina', 'tem', '2' ),
     ('Coordenação', 'tem', '1' ),
     ('Diretoria', 'tem', '1' ),
     ('De mont. e desm. de rolamentos', 'tem', '1' ),
-    ('Espaço Educação e Cultural', '', '1' ),
+    ('Espaço Educação e Cultural', 'tem', '1' ),
     ('Eletrônica', 'tem', '1' ),
     ('Instalações Elétricas', 'tem', '1' ),
     ('Laboratório de Informática', 'tem', '1' ),
